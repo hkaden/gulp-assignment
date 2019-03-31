@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Jeff Liu">
+    <title>Gulp Example</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="build/styles/index.css">
+    <link rel="stylesheet" href="build/sprite.css">
+    <link rel="stylesheet" href="build/styles/vender.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="blog-header">
+            <div class="row flex-nowrap justify-content-end aligh-items-center p-5">
+                <div class="col-4 offset-4 text-center">
+                    <a href="#" class="blog-header-logo text-dark"></a>
+                </div>
+                <div class="col-4 d-flex justify-content-end aligh-items-center">
+                    <ul class="list-inline-item">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="icon icon-briefcase"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="icon icon-clock"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="icon icon-mark"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="icon icon-speak"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main role="main" class="container mainSection">
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-between">
+                    <a class="p-2 text muted header-link" href="#">關於我們</a>
+                    <a class="p-2 text muted header-link" href="#">最新消息</a>
+                    <a class="p-2 text muted header-link" href="#">專案列表</a>
+                    <a class="p-2 text muted header-link" href="#">聯絡我們</a>
+                </nav>
+            </div>
+
+            <div class="row strict0">
+                <div class="col-12">
+                    <div id="main-banner" class="slider-pro">
+                        <div class="sp-slides">
+                            <div class="sp-slide">
+                                <img class="sp-image" src="build/images/blank.gif"
+                                    data-src="build/images/banner/banner1.jpeg">
+                            </div>
+                            <div class="sp-slide">
+                                <img class="sp-image" src="build/images/blank.gif"
+                                    data-src="build/images/banner/banner2.jpeg">
+                            </div>
+                            <div class="sp-slide">
+                                <img class="sp-image" src="build/images/blank.gif"
+                                    data-src="build/images/banner/banner3.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="classd-inline-block mb-2 text-primary text-secondary">作業一</strong>
+                            <h3 class="mb-0">作業一</h3>
+                            <div class="mb-2 text-muted">1月1日</div>
+                            <p class="card-text mb-auto">作業一作業一作業一作業一作業一</p>
+                            <a href="#" class="stretched-link text-secondary">繼續閱讀</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <svg class="bd-placeholder-img" width="200" height="250" xmlns=""
+                                preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                                aria-label="Placeholder: Thumbnail">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#de9943" />
+                                <text x="50%" y="50%" fill="#ffffff" dy=".1em">Thumbnail</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="classd-inline-block mb-2 text-primary text-secondary">作業一</strong>
+                            <h3 class="mb-0">作業一</h3>
+                            <div class="mb-2 text-muted">1月1</div>
+                            <p class="card-text mb-auto">作業一作業一作業一作業一</p>
+                            <a href="#" class="stretched-link text-secondary">繼續閱讀</a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <svg class="bd-placeholder-img" width="200" height="250" xmlns=""
+                                preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                                aria-label="Placeholder: Thumbnail">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#de9943" />
+                                <text x="50%" y="50%" fill="#ffffff" dy=".1em">Thumbnail</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 blog-main">
+                        <h1>網站消息</h1>
+                        <hr />
+                        <h3 class="blog-post-title">
+                            消息一
+                            <small class="date text-warning">2019-3-17</small>
+                            <p class="content">
+                                消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一消息一
+                            </p>
+                        </h3>
+                        <hr />
+                        <h3 class="blog-post-title">
+                            消息二
+                            <small class="date text-warning">2019-3-17</small>
+                            <p class="content">
+                                消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二消息二
+                            </p>
+                        </h3>
+                        <hr />
+                        <h3 class="blog-post-title">
+                            消息三
+                            <small class="date text-warning">2019-3-17</small>
+                            <p class="content">
+                                消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三消息三
+                            </p>
+                        </h3>
+                    </div>
+                    <div class="col-md-4 blog-sidebar">
+                        <div class="p-4 mb-3 bg-light rounded">
+                            <h4 class="font-italic">About</h4>
+                            <p class="mb-0 overflow-hidden">
+                                AboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAbout
+                            </p>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-italic">Elsewhere</h4>
+                            <div class="htmlcode grid-og-images">
+                                <div class="popup-gallery">
+                                    <a href="https://farm1.staticflickr.com/70/168872184_d7da5d1906.jpg"
+                                        title="The Cleaner">
+                                        <img src="https://farm1.staticflickr.com/70/168872184_d7da5d1906_s.jpg"
+                                            width="75" height="75" />
+                                    </a>
+                                    <a href="https://farm1.staticflickr.com/70/168872184_d7da5d1906.jpg"
+                                        title="The Cleaner">
+                                        <img src="https://farm1.staticflickr.com/70/168872184_d7da5d1906_s.jpg"
+                                            width="75" height="75" />
+                                    </a>
+                                    <a href="https://farm1.staticflickr.com/70/168872184_d7da5d1906.jpg"
+                                        title="The Cleaner">
+                                        <img src="https://farm1.staticflickr.com/70/168872184_d7da5d1906_s.jpg"
+                                            width="75" height="75" />
+                                    </a>
+                                    <a href="https://farm1.staticflickr.com/70/168872184_d7da5d1906.jpg"
+                                        title="Oh no, not Again">
+                                        <img src="https://farm1.staticflickr.com/70/168872184_d7da5d1906_s.jpg"
+                                            width="75" height="75" />
+                                    </a>
+                                    <a href="https://farm1.staticflickr.com/70/168872184_d7da5d1906.jpg"
+                                        title="Swan Lake">
+                                        <img src="https://farm1.staticflickr.com/70/168872184_d7da5d1906_s.jpg"
+                                            width="75" height="75" />
+                                    </a>
+                                    <a href="https://farm1.staticflickr.com/70/168872184_d7da5d1906.jpg"
+                                        title="The Snake">
+                                        <img src="https://farm1.staticflickr.com/70/168872184_d7da5d1906_s.jpg"
+                                            width="75" height="75" />
+                                    </a>
+                                    <a href="https://farm1.staticflickr.com/70/168872184_d7da5d1906.jpg"
+                                        title="Who's that, monkey ">
+                                        <img src="https://farm1.staticflickr.com/70/168872184_d7da5d1906_s.jpg"
+                                            width="75" height="75" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="social-list list-inline">
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-line list-inline-item"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-linkedin list-inline-item"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-instagram list-inline-item"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <div class="copyright">
+                            <p class="title text-right text-muted">本網站設計者名單</h6>
+                            <ul class="desginer text-right text-white">
+                                <li>學號 / 姓名<span class="name">10427271 呂偉麒</span></li>
+                                <li>學號 / 姓名<span class="name">10425274 譚皓仁</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="build/js/vender.min.js"></script>
+        <script src="build/js/app.js"></script>
+</body>
+
+</html>
